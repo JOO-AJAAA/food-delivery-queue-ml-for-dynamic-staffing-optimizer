@@ -6,7 +6,7 @@
 This repository implements a data-driven capacity planning system for food delivery operations. It minimizes labor costs by transitioning from fixed-staffing models to dynamic staffing. The architecture couples a time-series forecasting model with a custom discrete-event simulation (DES) engine to find the mathematical minimum number of active servers (kitchen staff) required to satisfy a strict Service Level Agreement (SLA).
 ## 📊 Dataset Source
 The predictive model and simulation engine are built and validated using historical food delivery operations data. 
-* **Source:** [Kaggle - Food Delivery Orders & ETA Logistics Dataset](https://www.kaggle.com/datasets/razanihababdellatif/food-delivery-orders-and-eta-logistics-dataset) *(Silakan ganti URL ini dengan tautan spesifik ke dataset Kaggle yang Anda gunakan)*
+* **Source:** [Kaggle - Food Delivery Orders & ETA Logistics Dataset](https://www.kaggle.com/datasets/razanihababdellatif/food-delivery-orders-and-eta-logistics-dataset)
 * **Data Features:** The dataset includes timestamps of order placement, kitchen preparation durations, delivery agent assignments, and historical order volumes used for time-series feature engineering.
 
 ## ⚙️ System Architecture
