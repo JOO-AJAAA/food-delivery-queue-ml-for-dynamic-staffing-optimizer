@@ -24,7 +24,7 @@ experiment_results = []
 
 print("Run Sensitivity Analysis for various SLA...")
 for sla_target in SLA_SCENARIOS:
-    print(f"\ Evaluating SLA: {sla_target} mins")
+    print(f"\n Evaluating SLA: {sla_target} mins")
     
     total_dynamic_staff = 0
     total_dynamic_violations = 0
